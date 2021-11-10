@@ -9,8 +9,8 @@ chmod +x /usr/local/bin/edu-ssh
 # Installing Service
 cat > /etc/systemd/system/edussh-nontls.service << END
 [Unit]
-Description=Ssh Websocket By Brody
-Documentation=https://t.me/brody_waemang
+Description=Ssh Websocket By Bowo
+Documentation=https://t.me/bowo
 After=network.target nss-lookup.target
 
 [Service]
@@ -33,8 +33,8 @@ systemctl restart edussh-nontls
 # Installing Service
 cat > /etc/systemd/system/edussh-tls.service << END
 [Unit]
-Description=Ssh Websocket By Brody
-Documentation=https://t.me/brody_waemang
+Description=Ssh Websocket By bowo
+Documentation=https://t.me/bowo
 After=network.target nss-lookup.target
 
 [Service]
@@ -65,8 +65,8 @@ chmod +x /usr/local/bin/edu-ovpn
 # Installing Service Ovpn Websocket
 cat > /etc/systemd/system/edu-ovpn.service << END
 [Unit]
-Description=Ovpn Websocket By Brody
-Documentation=https://t.me/brody_waemang
+Description=Ovpn Websocket By bowo
+Documentation=https://t.me/bowo
 After=network.target nss-lookup.target
 
 [Service]
@@ -94,4 +94,4 @@ echo -e "PORT SSH NONTLS : 2095"
 echo -e "PORT SSH TLS         : 443"
 echo -e "PORT OVPN WS B    : 2082"
 echo -e "==============================="
-echo -e "Script By Brody"
+echo -e "Script By bowo"
