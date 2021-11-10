@@ -243,7 +243,7 @@ cat> /etc/v2ray/vless.json << END
           ]
         },
         "wsSettings": {
-          "path": "/brody",
+          "path": "/bowo",
           "headers": {
             "Host": ""
           }
@@ -330,7 +330,7 @@ cat> /etc/v2ray/vnone.json << END
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/brody",
+          "path": "/bowo",
           "headers": {
             "Host": ""
           }
