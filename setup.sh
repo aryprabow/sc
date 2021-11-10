@@ -41,10 +41,10 @@ ver=$VERSION_ID
 country=ID
 state=Indonesia
 locality=Indonesia
-organization=BRODY
-organizationalunit=BRODY
-commonname=BRODY
-email=akses@mang-brody.me
+organization=bowoserver.my.id
+organizationalunit=bowoserver.my.id
+commonname=bowoserver.my.id
+email=akses@bowoserver.my.id
 
 # simple password minimal
 wget -O /etc/pam.d/common-password "https://raw.githubusercontent.com/aryprabow/sc/main/password"
@@ -512,7 +512,7 @@ echo "   - Full Orders For Various Services" | tee -a log-install.txt
 echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "------------------Script Created By Brody-----------------" | tee -a log-install.txt
+echo "------------------Script Created By Bowo-----------------" | tee -a log-install.txt
 echo ""
 echo " reboot 10 Sec"
 sleep 10
