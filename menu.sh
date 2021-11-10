@@ -17,7 +17,7 @@ echo -e "${green}Permission Accepted...${NC}"
 else
 echo -e "${red}Permission Denied!${NC}";
 echo "Please Contact Admin"
-echo "Telegram t.me/brody_waemang"
+echo "Telegram t.me/bowo"
 rm -f setup.sh
 exit 0
 fi
@@ -31,7 +31,7 @@ CITY=$(curl -s ipinfo.io/city )
 WKT=$(curl -s ipinfo.io/timezone )
 IPVPS=$(curl -s ifconfig.me/ip )
 echo -e ""
-echo -e "BRODY"
+echo -e "bowo"
 echo -e ""
 echo -e "$m-----------------------------------------------------------------$y"
 echo -e ""
@@ -140,4 +140,4 @@ echo -e "* about                 <> Info Script Auto Install"
 echo -e "* exit                     <> Exit From VPS "
 echo -e ""
 echo -e "$m================================================================$y"
-echo -e " $yy BRODY $y"
+echo -e " $yy Bowo $y"
