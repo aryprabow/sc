@@ -6,6 +6,9 @@ Langkah 2 :
 
 rm -rf setup.sh && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt install curl && wget https://raw.githubusercontent.com/aryprabow/sc/main/setup.sh && apt update && apt install dos2unix && dos2unix setup.sh && chmod +x setup.sh && ./setup.sh
 
+Script V2 fix bug
+rm -rf setup.sh && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt install curl && wget https://raw.githubusercontent.com/aryprabow/sc/main/setup.sh && apt update && apt install dos2unix && dos2unix setup.sh && chmod +x setup2.sh && ./setup.sh
+
 # For Your Information
 
 For :
